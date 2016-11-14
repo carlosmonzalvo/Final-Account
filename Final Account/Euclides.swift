@@ -11,4 +11,7 @@ import UIKit
 
 class Euclides{
     
+    func ejecutarAlgoritmo(){
+        
+    }
 }
