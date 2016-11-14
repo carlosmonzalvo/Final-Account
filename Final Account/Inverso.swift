@@ -19,5 +19,7 @@ class Inverso{
         self.b = b
     }
     
-    
+    func ejecutarAlgoritmo(){
+        
+    }
 }
