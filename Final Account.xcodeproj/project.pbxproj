@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C41EC9D1DD90CA0004C81FE /* TeoremaChino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41EC9C1DD90CA0004C81FE /* TeoremaChino.swift */; };
 		6C8DA21D1DD3798300239DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8DA21C1DD3798300239DBF /* AppDelegate.swift */; };
 		6C8DA21F1DD3798300239DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8DA21E1DD3798300239DBF /* ViewController.swift */; };
 		6C8DA2221DD3798300239DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C8DA2201DD3798300239DBF /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C41EC9C1DD90CA0004C81FE /* TeoremaChino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeoremaChino.swift; sourceTree = "<group>"; };
 		6C8DA2191DD3798300239DBF /* Final Account.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Account.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C8DA21C1DD3798300239DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C8DA21E1DD3798300239DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				6C8DA21C1DD3798300239DBF /* AppDelegate.swift */,
 				6C8DA21E1DD3798300239DBF /* ViewController.swift */,
+				6C41EC9C1DD90CA0004C81FE /* TeoremaChino.swift */,
 				6C8DA2201DD3798300239DBF /* Main.storyboard */,
 				6C8DA2231DD3798300239DBF /* Assets.xcassets */,
 				6C8DA2251DD3798300239DBF /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			files = (
 				6C8DA21F1DD3798300239DBF /* ViewController.swift in Sources */,
 				6C8DA21D1DD3798300239DBF /* AppDelegate.swift in Sources */,
+				6C41EC9D1DD90CA0004C81FE /* TeoremaChino.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

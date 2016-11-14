@@ -8,33 +8,17 @@
 
 import UIKit
 
-class ViewController1: UIViewController,UITextFieldDelegate {
-
-    @IBOutlet weak var DataInput: UITextField!
+class ViewController: UIViewController,UITextFieldDelegate {
     
-    @IBOutlet weak var botonLector: UIButton!
     
-    var userInput: String!
     
     override func viewDidLoad() {
         
-        let tap = UITapGestureRecognizer(target: self, action: #selector(escondeTeclado))
-        self.view.addGestureRecognizer(tap)
-        DataInput.delegate = self
-        self.botonLector.addTarget(self, action: #selector(LeerDatos(sender:)), for: .touchUpInside)
-        super.viewDidLoad()
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    func escondeTeclado(){
-        self.DataInput.endEditing(true)
-    }
-    
-    func LeerDatos(sender: AnyObject){
-        self.userInput = self.DataInput.text
-        print(userInput)
-    }
 
 }
 
