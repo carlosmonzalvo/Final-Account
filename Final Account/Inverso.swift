@@ -11,6 +11,7 @@ import UIKit
 
 class Inverso{
     
+<<<<<<< HEAD
     var a: Float!
     var b: Float!
     
@@ -106,6 +107,9 @@ class Inverso{
             //printf("%i",mcd);
             return mcd;
         }
+=======
+    class func ejecutarAlgoritmo(a: Float, b: Float){
+>>>>>>> origin/master
         
     }
 }
