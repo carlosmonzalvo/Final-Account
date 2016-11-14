@@ -80,9 +80,6 @@ class TeoremaChino: UIViewController, UITextFieldDelegate{
 
 
     }
-    
-    
-    
     func Cerebro(sender: AnyObject){
         
         

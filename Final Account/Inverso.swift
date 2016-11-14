@@ -10,13 +10,4 @@ import Foundation
 import UIKit
 
 class Inverso{
-    
-    var a: Float!
-    var b: Float!
-    
-    init(a: Float, b: Float){
-        self.a = a
-        self.b = b
-    }
-    
 }
