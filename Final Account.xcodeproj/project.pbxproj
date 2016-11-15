@@ -10,6 +10,10 @@
 		6C41EC9D1DD90CA0004C81FE /* TeoremaChino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41EC9C1DD90CA0004C81FE /* TeoremaChino.swift */; };
 		6C41ECA01DDA45E3004C81FE /* Inverso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41EC9F1DDA45E3004C81FE /* Inverso.swift */; };
 		6C41ECA21DDA4AFE004C81FE /* Euclides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41ECA11DDA4AFE004C81FE /* Euclides.swift */; };
+		6C41ECAB1DDA6B06004C81FE /* ViewControllerInverso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41ECAA1DDA6B06004C81FE /* ViewControllerInverso.swift */; };
+		6C41ECAD1DDA7B69004C81FE /* ViewControllerEuclides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41ECAC1DDA7B69004C81FE /* ViewControllerEuclides.swift */; };
+		6C41ECAF1DDA7E97004C81FE /* PositivosyNegativos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41ECAE1DDA7E97004C81FE /* PositivosyNegativos.swift */; };
+		6C41ECB11DDA7ECF004C81FE /* ViewControllerEnterosyNegativos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41ECB01DDA7ECF004C81FE /* ViewControllerEnterosyNegativos.swift */; };
 		6C8DA21D1DD3798300239DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8DA21C1DD3798300239DBF /* AppDelegate.swift */; };
 		6C8DA21F1DD3798300239DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8DA21E1DD3798300239DBF /* ViewController.swift */; };
 		6C8DA2221DD3798300239DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C8DA2201DD3798300239DBF /* Main.storyboard */; };
@@ -40,6 +44,10 @@
 		6C41EC9C1DD90CA0004C81FE /* TeoremaChino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeoremaChino.swift; sourceTree = "<group>"; };
 		6C41EC9F1DDA45E3004C81FE /* Inverso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inverso.swift; sourceTree = "<group>"; };
 		6C41ECA11DDA4AFE004C81FE /* Euclides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euclides.swift; sourceTree = "<group>"; };
+		6C41ECAA1DDA6B06004C81FE /* ViewControllerInverso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerInverso.swift; sourceTree = "<group>"; };
+		6C41ECAC1DDA7B69004C81FE /* ViewControllerEuclides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerEuclides.swift; sourceTree = "<group>"; };
+		6C41ECAE1DDA7E97004C81FE /* PositivosyNegativos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositivosyNegativos.swift; sourceTree = "<group>"; };
+		6C41ECB01DDA7ECF004C81FE /* ViewControllerEnterosyNegativos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerEnterosyNegativos.swift; sourceTree = "<group>"; };
 		6C8DA2191DD3798300239DBF /* Final Account.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Account.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C8DA21C1DD3798300239DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C8DA21E1DD3798300239DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 			children = (
 				6C8DA21C1DD3798300239DBF /* AppDelegate.swift */,
 				6C8DA21E1DD3798300239DBF /* ViewController.swift */,
+				6C41ECAC1DDA7B69004C81FE /* ViewControllerEuclides.swift */,
+				6C41ECAA1DDA6B06004C81FE /* ViewControllerInverso.swift */,
+				6C41ECB01DDA7ECF004C81FE /* ViewControllerEnterosyNegativos.swift */,
+				6C41ECAE1DDA7E97004C81FE /* PositivosyNegativos.swift */,
 				6C41EC9C1DD90CA0004C81FE /* TeoremaChino.swift */,
 				6C41EC9F1DDA45E3004C81FE /* Inverso.swift */,
 				6C41ECA11DDA4AFE004C81FE /* Euclides.swift */,
@@ -269,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C41ECB11DDA7ECF004C81FE /* ViewControllerEnterosyNegativos.swift in Sources */,
+				6C41ECAD1DDA7B69004C81FE /* ViewControllerEuclides.swift in Sources */,
 				6C8DA21F1DD3798300239DBF /* ViewController.swift in Sources */,
+				6C41ECAB1DDA6B06004C81FE /* ViewControllerInverso.swift in Sources */,
 				6C8DA21D1DD3798300239DBF /* AppDelegate.swift in Sources */,
 				6C41ECA01DDA45E3004C81FE /* Inverso.swift in Sources */,
+				6C41ECAF1DDA7E97004C81FE /* PositivosyNegativos.swift in Sources */,
 				6C41ECA21DDA4AFE004C81FE /* Euclides.swift in Sources */,
 				6C41EC9D1DD90CA0004C81FE /* TeoremaChino.swift in Sources */,
 			);

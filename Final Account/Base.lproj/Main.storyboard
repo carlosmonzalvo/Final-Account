@@ -88,7 +88,7 @@
         <!--POSITIVOS Y NEGATIVOS-->
         <scene sceneID="qLB-nu-euL">
             <objects>
-                <viewController title="POSITIVOS Y NEGATIVOS" id="usW-Qt-GIU" sceneMemberID="viewController">
+                <viewController title="POSITIVOS Y NEGATIVOS" id="usW-Qt-GIU" customClass="ViewControllerPositivosyNegativos" customModule="Final_Account" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gdk-us-l8t"/>
                         <viewControllerLayoutGuide type="bottom" id="Ec8-qC-dcK"/>
@@ -204,6 +204,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSf-Ek-Hc4">
+                                <rect key="frame" x="29" y="496" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nt8-SG-2AA">
+                                <rect key="frame" x="249" y="496" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -212,6 +228,21 @@
                             <constraint firstItem="r5H-Kd-EtK" firstAttribute="leading" secondItem="4cA-M8-wEy" secondAttribute="leadingMargin" constant="13" id="tiP-qv-cm4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="BotonRes" destination="r5H-Kd-EtK" id="02H-cm-uCS"/>
+                        <outlet property="IngresaA" destination="hOb-48-1se" id="9rJ-Ae-Lqo"/>
+                        <outlet property="IngresaB" destination="XGJ-il-fQL" id="YXl-jy-XQ2"/>
+                        <outlet property="Negativo1" destination="7x4-mz-tTB" id="edx-Q1-C78"/>
+                        <outlet property="Negativo2" destination="HHy-b2-EgF" id="Pz9-FX-lPa"/>
+                        <outlet property="Negativo3" destination="qxS-gb-gUs" id="fE5-ng-27N"/>
+                        <outlet property="Negativo4" destination="FWx-E3-z5U" id="IZ6-cp-4dw"/>
+                        <outlet property="Negativo5" destination="nt8-SG-2AA" id="ePk-lr-2ko"/>
+                        <outlet property="Positivo1" destination="ifF-dS-ol4" id="Nzh-Yh-m02"/>
+                        <outlet property="Positivo2" destination="b6Y-ez-Tlf" id="6ju-6j-RGb"/>
+                        <outlet property="Positivo3" destination="qXf-4p-lpb" id="t8c-MX-fp6"/>
+                        <outlet property="Positivo4" destination="v9J-e3-nef" id="lsz-DT-bAS"/>
+                        <outlet property="Positivo5" destination="KSf-Ek-Hc4" id="IJn-eH-piB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Chv-ri-tQu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -368,7 +399,7 @@
         <!--INVERSOS-->
         <scene sceneID="SwV-3F-4II">
             <objects>
-                <viewController title="INVERSOS" id="MoC-l5-OtK" sceneMemberID="viewController">
+                <viewController title="INVERSOS" id="MoC-l5-OtK" customClass="UIViewControllerInverso" customModule="Final_Account" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vZC-lb-1K9"/>
                         <viewControllerLayoutGuide type="bottom" id="bgn-Tm-eoo"/>
@@ -517,6 +548,23 @@
                             <constraint firstItem="bgn-Tm-eoo" firstAttribute="top" secondItem="Hld-b2-od6" secondAttribute="bottom" constant="40" id="nhF-j9-C2K"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="BotonRes" destination="Hld-b2-od6" id="eJ7-90-MXM"/>
+                        <outlet property="Congruente1" destination="sWa-2o-gI1" id="0Y4-rK-u9v"/>
+                        <outlet property="Congruente2" destination="GYM-Gf-p3c" id="qVU-le-sZK"/>
+                        <outlet property="Congruente3" destination="uK7-D7-rFS" id="fa9-21-ydH"/>
+                        <outlet property="Congruente4" destination="3LR-hx-mR5" id="XWV-SV-794"/>
+                        <outlet property="Congruente5" destination="iwY-Es-rzC" id="RZo-LI-qte"/>
+                        <outlet property="Congruente6" destination="jOa-4b-kTk" id="bG4-hX-yWo"/>
+                        <outlet property="Entero" destination="9ON-R1-ahs" id="KC9-a2-WPE"/>
+                        <outlet property="Inverso1" destination="X4i-P2-Aoj" id="sfu-Mj-eXX"/>
+                        <outlet property="Inverso2" destination="EOP-6k-WNn" id="h3T-5T-SQm"/>
+                        <outlet property="Inverso3" destination="yxJ-Ku-2q2" id="ea9-fD-3qN"/>
+                        <outlet property="Inverso4" destination="ZZG-ay-Th5" id="E7K-pE-A1Z"/>
+                        <outlet property="Inverso5" destination="cNt-it-EdU" id="gFg-WL-Yhl"/>
+                        <outlet property="Inverso6" destination="DKX-cL-Qxz" id="rbf-oK-olz"/>
+                        <outlet property="Modulo" destination="sJR-sj-f8f" id="XoT-ck-pTG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qe2-Eg-Uhe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -525,7 +573,7 @@
         <!--ALGORITMO DE EUCLIDES-->
         <scene sceneID="00p-Er-Msi">
             <objects>
-                <viewController title="ALGORITMO DE EUCLIDES" id="AeT-mJ-nlC" sceneMemberID="viewController">
+                <viewController title="ALGORITMO DE EUCLIDES" id="AeT-mJ-nlC" customClass="ViewControllerEuclides" customModule="Final_Account" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DUw-KH-PqK"/>
                         <viewControllerLayoutGuide type="bottom" id="2Xl-e3-WJL"/>
@@ -579,6 +627,12 @@
                             <constraint firstAttribute="trailingMargin" secondItem="2DY-H1-JS5" secondAttribute="trailing" constant="13" id="koU-pQ-RjT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="BotonRes" destination="2DY-H1-JS5" id="yiL-hK-O6j"/>
+                        <outlet property="IngresaA" destination="M0Z-CO-BlT" id="auH-RG-nia"/>
+                        <outlet property="IngresaB" destination="gum-Bj-HmM" id="I5D-bV-IS1"/>
+                        <outlet property="resultLabel" destination="TKX-b7-sZP" id="6yb-io-QfD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lQM-IE-Ktf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

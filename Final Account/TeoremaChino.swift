@@ -34,6 +34,13 @@ class TeoremaChino: UIViewController, UITextFieldDelegate{
     
     //Inicio del codigo
     override func viewDidLoad() {
+        var selectoresDeEtiquetas = [divisor1, divisor2, divisor3, divisor4, divisor5, residuo1, residuo2, residuo3, residuo4, residuo5]
+        
+        for etiqueta in selectoresDeEtiquetas {
+            etiqueta?.keyboardType = .numberPad
+        }
+        
+        
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(escondeTeclado))
         
