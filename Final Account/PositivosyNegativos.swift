@@ -28,8 +28,10 @@ class PositivosyNegativos {
             if(x < 0){
                 t += 1;
             }else{
+                congruentesPositivos[contador] = x
                 contador += 1;
                 t += 1;
+                
                 print("valor de x positivo = %i\n",x);
             }
         }while(contador<5);//do para los positivos
@@ -39,8 +41,10 @@ class PositivosyNegativos {
             if(x>0){
                 t -= 1;
             }else{
+                congruentesNegativos[contador] = x
                 contador += 1;
                 t -= 1;
+                
                 print("valor de x negativo = %i\n",x);
             }
         }while(contador<5);//do para los negativos
